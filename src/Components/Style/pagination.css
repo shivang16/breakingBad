@@ -1,0 +1,30 @@
+.center {
+    text-align: center;
+  }
+  
+  .pagination {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FEBB0B;
+  }
+  
+  .pagination a {
+    color: rgb(12, 12, 12);
+    float: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #FEBB0B;
+    margin: 0 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: rgb(13, 241, 51);
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #54632b; color:#f7f8f7;}

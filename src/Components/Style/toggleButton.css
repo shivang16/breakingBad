@@ -1,0 +1,26 @@
+.divClass{
+    word-wrap:break-word;
+    min-height: 50px;
+}
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(7, 7, 7);
+    background-color: #FEBB0B;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(144, 143, 146);
+  }
+  
+  .button:hover {background-color: #4c4c52}
+  
+  .button:active {
+    background-color: #33274e;
+    box-shadow: 0 5px rgb(35, 30, 43);
+    transform: translateY(4px);
+  }
