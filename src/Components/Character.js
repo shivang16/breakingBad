@@ -87,7 +87,7 @@ class Character extends Component {
         }
         
         
-        const renderPageNumbers = pageNumbers.map(number => { return (<a key={number} id={number} onClick={this.goToPage} href="!#">{number}</a>);});
+        const renderPageNumbers = pageNumbers.map(number => { return (<a key={number} id={number} onClick={this.goToPage} >{number}</a>);});
 
         return (
             <div>
@@ -99,20 +99,20 @@ class Character extends Component {
                             <i class="fa fa-caret-down"></i>
                         </button>
                         <div class="dropdown-content">
-                            <a id="5" onClick={this.changeNumberOfCharacterPerpage} href="!#">5</a>
-                            <a id="10" onClick={this.changeNumberOfCharacterPerpage} href="!#">10</a>
-                            <a id="15" onClick={this.changeNumberOfCharacterPerpage} href="!#">15</a>
-                            <a id="20" onClick={this.changeNumberOfCharacterPerpage} href="!#">20</a>
-                            <a id="25" onClick={this.changeNumberOfCharacterPerpage} href="!#">25</a>
+                            <a id="5" onClick={this.changeNumberOfCharacterPerpage} >5</a>
+                            <a id="10" onClick={this.changeNumberOfCharacterPerpage} >10</a>
+                            <a id="15" onClick={this.changeNumberOfCharacterPerpage} >15</a>
+                            <a id="20" onClick={this.changeNumberOfCharacterPerpage} >20</a>
+                            <a id="25" onClick={this.changeNumberOfCharacterPerpage} >25</a>
                         </div>
                     </div> 
                 </div>
 
 
                 <div class="pagination">
-                    <a id="prevPage" onClick={this.prevPage} href="!#">&laquo;</a> 
+                    <a id="prevPage" onClick={this.prevPage} >&laquo;</a> 
                         {renderPageNumbers}   
-                    <a id="nextPage" onClick={this.nextPage} href="!#">&raquo;</a>
+                    <a id="nextPage" onClick={this.nextPage} >&raquo;</a>
                 </div>    
             </div>
               <ul>
@@ -120,9 +120,9 @@ class Character extends Component {
               </ul>
             <div class="center">
                 <div class="pagination">
-                    <a id="prevPage" onClick={this.prevPage} href="!#">&laquo;</a> 
+                    <a id="prevPage" onClick={this.prevPage} >&laquo;</a> 
                         {renderPageNumbers}   
-                    <a id="nextPage" onClick={this.nextPage} href="!#">&raquo;</a>
+                    <a id="nextPage" onClick={this.nextPage} >&raquo;</a>
                 </div>    
             </div>
             </div>
