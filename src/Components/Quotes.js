@@ -36,7 +36,7 @@ class Quotes extends Component {
 
     render() {
         let quotesRender;
-        if(this.state.visible==true)
+        if(this.state.visible===true)
         {
             quotesRender =  
                 <div class="X">
